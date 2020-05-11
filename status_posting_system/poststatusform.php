@@ -28,7 +28,7 @@ Description: PHP document consisting of a dynamic form for user input and links
 			</nav>
 		</header>
 		<div class="container"><br>
-			<!-- NB: all forms in this assignment use Bootstrap classes"
+			<!-- NB: all forms in this assignment use Bootstrap classes" -->
 			<!-- class='needs-validation' below: calls function in javascript.js when form is submitted -->
 			<!-- 'novalidate' attribute below: input data should not be validated by browser when form is submitted -->
 			<form action="poststatusprocess.php" method="post" class="needs-validation" novalidate>
