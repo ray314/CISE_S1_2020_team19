@@ -1,2 +1,2 @@
-# ENSE701_semester1_2020_team19
+# CISE_S1_2020_team19
 Software Engineering Assignment1B
