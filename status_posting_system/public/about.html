@@ -1,0 +1,88 @@
+<!--
+Description: HTML document describing this assignment and links
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>About</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="css/bootstrap.css">
+	    <link rel="stylesheet" href="css/style.css">
+	    <script src="js/bootstrapjquery.js" defer></script>
+	    <script src="js/popper.js" defer></script>
+	    <script src="js/bootstrap.js" defer></script>
+	    <script src="js/javascript.js" defer></script>
+		<style> /*This element overrides Bootstrap CSS found in multiple locations */
+			lh { /* list header */
+				color: #FFFFFF;
+				background: #FFFFFF;
+				text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5,
+					2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+				color: #FFFFFF;
+				background: #FFFFFF;
+			}
+			h1 {
+				color: #333333;
+				text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+			}
+		</style>
+		</head>
+		<body>
+		<header>
+			<nav class="navbar navbar-light" style="background-color:#a6f1a6";>
+				<div class="container">
+					<h1>About Page</h1>
+				</div>
+			</nav>
+		</header>
+		<div class="container"><br>
+            <ul> <!-- discussion topics are listed using unordered lists -->
+                <lh><b>Special Features</b></lh>
+                <li>External Bootstrap CSS file styles HTML elements</li>
+                <li>Bootstrap grid layout vertically aligns form input elements</li>
+				<li>Bootstrap classes used to style forms, headers, footers and generate invalid input error messages</li>
+				<li>Bootsrap classes used to create lists with different coloured rows </li>
+				<li>A function 'javascript.js' prevents invalid form sumbission to the web server</li>
+				<li><i>User input is displayed in a disabled form in 'poststatusprocess.php' after written to the database</i></li>
+				<li>A user defined PHP function checks for the user inputting only 'null'</li>
+				<li>An built-in PHP function checks for the user inputting only whitespace</li>
+				<li>User can't load 'postatusprocess.php' or 'searchstatusprocess.php' directly without having submitted a form</li>
+				<li>The file 'shared/database_credentials' contains constants for accessing the database</li>
+			</ul>
+
+			<ul>
+				<lh><b>Difficult Parts</b></lh>
+				<li>Overriding Bootstrap CSS styles when a style was defined in multiple places</li>
+				<li>Debugging non specific errors such as 'HTTP ERROR 500'</li>
+				<li>Identifying small errors e.g. missing ',' or ';'</li>
+			</ul>
+
+			<ul>
+				<lh><b>Areas to Improve</b></lh>
+				<li>Put reusable code in their own files and call them when needed</li>
+				<li>Improve the appearance of the pages displayed to the user</li>
+				<li>Add a header bar which has drop down links</li>
+			</ul>
+
+			<ul>
+				<lh><b>What I've Learnt</b></lh>
+				<li>How to use MyPHP to work with databases</li>
+				<li>How to supress error messages and terminate a script using die()</li>
+				<li>How to style lists using Boostrap for 'searchstatusprocess.php'</li>
+			</ul>
+
+			<ul>
+				<lh><b>References</b></lh>
+				<li>Otto, M., & Thornton, J. (n.d.). Bootstrap. Retrieved April 20, 2020, from https://getbootstrap.com/</li>
+				<li>PHP Manual. (2020, April 18). Retrieved April 20, 2020, from https://www.php.net/manual/en/</li>
+				<li>PHP Sandbox, test PHP online, PHP tester. (n.d.). Retrieved April 20, 2020, from http://sandbox.onlinephpfunctions.com/</li>
+			</ul>
+			<br>
+			<br>
+		</div>
+		<footer class="footer fixed-bottom" style="background-color: #b8f4b8;">
+			<div class="container" style="padding:8px 6px;">
+				<a href="index.html">Return to Home Page</a>
+			</div>
+		</footer>
+	</body>
